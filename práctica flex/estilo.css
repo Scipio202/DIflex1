@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    
+}
+h1{
+    text-align: center;
+    padding-top: 25%;
+    padding-bottom: 2%;
+    font-size: 6rem;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+h2{
+   /* border: 1px solid black; */
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    color:royalblue
+}
+
+h4{
+    text-align: center;
+    color: gray;
+    margin-bottom: 2%;
+}
+
+
+.hdiv1{
+    display: flex;
+    height: 20%;
+    /* border: 1px solid black; */
+    
+}
+
+.logo{
+    height: 5vmax;
+    margin-left: 3%;
+    margin-right: 55%;
+}
+
+
+
+.enlaces{
+    margin-right: 1%; 
+    margin-top: 2%;
+    /* border: 1px solid black; */
+
+}
+
+ /* .acercade{
+    padding-right: 0%;
+ } */
+
+.hdiv2{
+    height: 100vh;
+    background-image: url('recursos/imagen1.webp');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mdiv1{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content: center;
+}
+
+.mdiv2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2%;
+    
+}
+
+.redonda  {
+    width: 300px;
+    padding: 1%;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    object-fit: cover;
+   
+
+
+}
+
+.mdiv34{
+
+    background-color: #f4f4f4;
+}
+
+.mdiv4{
+    display: flex;
+   
+    justify-content:space-around;
+
+    padding-bottom: 5%;
+   
+}
+
+.piscina {
+
+    width: 30%;
+    object-fit: cover;
+}
+
+.mdiv6{
+    display: flex;   
+    flex-direction: column;
+    justify-content:center;
+     align-items: center; 
+
+}
+
+footer{
+    height: 25vh;
+    background-image: url('recursos/imagen1.webp');
+    background-size: cover;
+    
+}
+
+.fdiv1 *{
+    
+    color: white;
+    /* background-attachment: fixed;*/
+} 
+
+.fdiv2{
+
+    display: flex;
+    justify-content: center;
+   
+    /* flex-wrap: wrap; */
+    /* border: 1px solid black; */
+    align-content: center;
+}
+
+.fdiv2 .rrssCtr {
+
+    margin-left: 2%;
+    margin-right: 2%;
+}
